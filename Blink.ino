@@ -12,5 +12,4 @@ void loop() {
   delay(sensorValue);                       // wait for a second
   Serial.println(sensorValue);
   delay(1);
-  
 }
