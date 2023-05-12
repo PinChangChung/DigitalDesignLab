@@ -1,6 +1,6 @@
 #include "pitches.h"
-#define BUTTON 6
-// notes in the melody:
+#define BUTTON 6  
+  // notes in the melody:
 int melody[] = {
    NOTE_C4,  NOTE_C4, NOTE_G5,  NOTE_G5, NOTE_A5, NOTE_A5, NOTE_G5
 };
