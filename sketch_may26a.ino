@@ -196,6 +196,7 @@ void loop()
      CheckToPlay();
      presentbuttoncheck = previousbuttoncheck;
      presentbuttoncheck = digitalRead(BUTTON);
+     delay(5);
      if( presentbuttoncheck != previousbuttoncheck )
      {
       save = !save;
@@ -212,6 +213,7 @@ void loop()
      CheckToPlay();
      presentbuttoncheck = previousbuttoncheck;
      presentbuttoncheck = digitalRead(BUTTON);
+     delay(5);
      if( presentbuttoncheck != previousbuttoncheck)
      {
       save = !save;
